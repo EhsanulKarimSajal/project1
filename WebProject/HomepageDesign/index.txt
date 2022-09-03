@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<body>
+    
+<div class="w3-container">
+   
+  
+    <div class="w3-bar w3-light-grey">
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+    
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myFunction()">
+          Activities <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+          <a href="#" class="w3-bar-item w3-button">Link 1</a>
+          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+          <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+      </div>
+
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myFunction()">
+          People <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+          <a href="#" class="w3-bar-item w3-button">Link 1</a>
+          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+          <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+      </div>
+
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myFunction()">
+          Media <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+          <a href="#" class="w3-bar-item w3-button">Link 1</a>
+          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+          <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        </div>
+      </div>
+
+     
+      <a href="#" class="w3-bar-item w3-button">About Us</a>
+      <a href="#" class="w3-bar-item w3-button">Join Us</a>
+
+
+
+    </div>
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+
+<img src="UIUSdf.jpg" alt="Cover" style="width: 150px;height: 150px; border-radius: 50%;">
+
+  <div class="center">
+
+    <h1>Enhance Your Skills,Get Better!</h1> 
+      
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+
+
+<img src="UIUSdfCover.jpg" alt="Cover" style="width: 950px;">
+
+<br>
+<br>
+<br>
+
+<div class="center">
+
+  <h3>What is UIU Skill Development Forum</h3> 
+  <h5>Developing skillset for all!</h5>
+  <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis</p1>
+    
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="center">
+
+  <h3>Organizations we have worked with:</h3>
+
+</div>
+
+
+<img src="UIUSdfWorkedWith.JPG" alt="Organizations">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="center">
+
+  <h3>Our Goals:</h3>
+  <p2>Lorem ipsum dolor sitamet consectetur adipiscing elit.Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio,eaque rerum! Provident similique accusantium nemo autem. </p2>
+
+</div>
+
+<br>
+<br>
+
+<div class="container1">
+ <div class="box1">
+
+    <h4>Pickup new skills</h4>
+
+ </div>
+
+
+ <div class="box2">
+
+    <h4>Learn to be indespensible</h4>
+    
+ </div>
+
+
+ <div class="box3">
+
+    <h4>Sense of timing</h4>
+  
+ </div>
+</div>
+
+
+<div class="container2">
+  <div class="box1">
+ 
+     <h4>Educational Development</h4>
+ 
+  </div>
+ 
+ 
+  <div class="box2">
+ 
+     <h4>Individual Behaviour</h4>
+     
+  </div>
+ 
+ 
+  <div class="box3">
+ 
+   <h4>Community Relations</h4>
+   
+  </div>
+ </div>
+
+
+
+</body>
+</html>
